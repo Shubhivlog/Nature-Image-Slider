@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 9rem;
+    background-color: aqua;
+    box-shadow: 0px 2px 8px lightgray;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: orange;
+}
+#scrol-div{
+    display: flex;
+    gap: 1rem;
+    transition: .5s;
+}
+#scrol-div img{
+    width: 1250px;
+    height: 85vh;
+    transition: 0.5s;
+    
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+.arrow{
+    padding: 12px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#arrow1{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+}
+#arrow2{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
